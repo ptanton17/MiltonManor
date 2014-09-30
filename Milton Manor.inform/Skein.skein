@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x131350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x99874c0" />
+  <item nodeId="node-0x131350">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Milton Manor
+An Interactive Fiction by Phillip Tanton
+Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Front porch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">NO</temporary>
+    <children>
+      <child nodeId="node-0x6ff5670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ff5670">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b1d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b1d90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Grand staircase
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x99874c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99874c0">
+    <command xml:space="preserve">s</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+</Skein>
