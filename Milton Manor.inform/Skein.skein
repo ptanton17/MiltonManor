@@ -1,53 +1,751 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x131350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x99df6f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x99874c0" />
-  <item nodeId="node-0x131350">
+  <activeNode nodeId="node-0x99df6f0" />
+  <item nodeId="node-0x99df6f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Milton Manor
-An Interactive Fiction by Phillip Tanton
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by Phillip Tanton &quot;A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house.&quot;
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Front porch
+A simple porch, with two lamps, a reclining chair and a withered old deck.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="111">NO</temporary>
     <children>
-      <child nodeId="node-0x6ff5670" />
+      <child nodeId="node-0x99df740" />
+      <child nodeId="node-0x9967840" />
+      <child nodeId="node-0x80446c0" />
     </children>
   </item>
-  <item nodeId="node-0x6ff5670">
+  <item nodeId="node-0x80446c0">
+    <command xml:space="preserve">l deck</command>
+    <result xml:space="preserve">A rotton deck, obiously old and ill maintained. There seems to be part of a paper between two planks.
+
+In Deck is Code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ff02c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ff02c0">
+    <command xml:space="preserve">get code</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x9281d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9281d30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Main Hall
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x1b1d90" />
+      <child nodeId="node-0x2a7990" />
     </children>
   </item>
-  <item nodeId="node-0x1b1d90">
+  <item nodeId="node-0x2a7990">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Grand staircase
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x99874c0" />
+      <child nodeId="node-0x80100f0" />
     </children>
   </item>
-  <item nodeId="node-0x99874c0">
+  <item nodeId="node-0x80100f0">
+    <command xml:space="preserve">unlock safe</command>
+    <result xml:space="preserve">(with Code)
+You unlock safe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+  </item>
+  <item nodeId="node-0x9967840">
+    <command xml:space="preserve">get deck</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x996b2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x996b2e0">
+    <command xml:space="preserve">open deck</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x9950df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9950df0">
+    <command xml:space="preserve">get code</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x99df740">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+You can see servents door and Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x99df790" />
+      <child nodeId="node-0x80034c0" />
+      <child nodeId="node-0xef881c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xef881c0">
+    <command xml:space="preserve">q</command>
+    <result xml:space="preserve">Are you sure you want to quit? </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x9291970" />
+    </children>
+  </item>
+  <item nodeId="node-0x9291970">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Please answer yes or no.&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0xefbd160" />
+    </children>
+  </item>
+  <item nodeId="node-0xefbd160">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x9280750" />
+    </children>
+  </item>
+  <item nodeId="node-0x9280750">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West wing
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0xefc6ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xefc6ac0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(Closet)
+A large oak closet filled with jackets and sweaters. 
+
+In Closet are Jacket and Sweater.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0xefa3500" />
+    </children>
+  </item>
+  <item nodeId="node-0xefa3500">
+    <command xml:space="preserve">wear jacket</command>
+    <result xml:space="preserve">(first taking Jacket)
+You put on Jacket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x926e3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x926e3e0">
+    <command xml:space="preserve">get jacket</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x927ea70" />
+    </children>
+  </item>
+  <item nodeId="node-0x927ea70">
+    <command xml:space="preserve">wear sweater</command>
+    <result xml:space="preserve">(first taking Sweater)
+You put on Sweater.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x365b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x365b60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Sweater (being worn)
+    Phone number
+  Jacket (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+  </item>
+  <item nodeId="node-0x80034c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West wing
+Tradtionally the guest bedroom, the west wing is a simply decorated space. The is a great red curtain on the wall you are now facing. To your right is a closet and dressar. They are made of quality oak and seem to impose temselves into the room, as opposed to fitting in with it. The left part of the room contains the guest bed, the bedside table and the reading lamp on top. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0x995e350" />
+      <child nodeId="node-0x9958f00" />
+      <child nodeId="node-0xef55780" />
+    </children>
+  </item>
+  <item nodeId="node-0xef55780">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0xefdad10" />
+    </children>
+  </item>
+  <item nodeId="node-0xefdad10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0xef96d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xef96d70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+  </item>
+  <item nodeId="node-0x9958f00">
+    <command xml:space="preserve">x dresser</command>
+    <result xml:space="preserve">a classic dresser with three drawers and some figurines on top. The wood working is of the highest quality and the caprpenter coate the dresser in varnish so that it could shine.
+
+In Dresser are Top drawer, Middle drawer and Bottom drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xefd7700" />
+    </children>
+  </item>
+  <item nodeId="node-0xefd7700">
+    <command xml:space="preserve">x dressar</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xefd6d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xefd6d90">
+    <command xml:space="preserve">x top drawer</command>
+    <result xml:space="preserve">It is empty. No one has slept in the guest bedroom for a while.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xef5a5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xef5a5a0">
+    <command xml:space="preserve">x middle drawer</command>
+    <result xml:space="preserve">this one is also empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xef89a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xef89a70">
+    <command xml:space="preserve">x bottom drawer</command>
+    <result xml:space="preserve">This one seems empty too, but ...
+
+In Bottom drawer is Pants.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xefeeba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xefeeba0">
+    <command xml:space="preserve">get pants</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0xef44650" />
+    </children>
+  </item>
+  <item nodeId="node-0xef44650">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Jacket: Taken.
+Sweater: Taken.
+Phone number: Taken.
+Top drawer: Taken.
+Middle drawer: Taken.
+Bottom drawer: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+    <children>
+      <child nodeId="node-0x92d7a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x92d7a50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bottom drawer
+  Middle drawer
+  Top drawer
+  Phone number
+  Sweater
+  Jacket
+  Pants
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+  </item>
+  <item nodeId="node-0x995e350">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Hall
+You can see servents door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+    <children>
+      <child nodeId="node-0x991e780" />
+    </children>
+  </item>
+  <item nodeId="node-0x991e780">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening servents door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="43">YES</temporary>
+  </item>
+  <item nodeId="node-0x99df790">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carving showing the story of the milton family and the beggining of this house. There are images of the fuedal lords and the renasiance magistrates. They all have the same stern narrow jawbone. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x99df7e0" />
+      <child nodeId="node-0x99e7740" />
+      <child nodeId="node-0x9960b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9960b10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xef948e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xef948e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Main Hall
+You can see servents door and Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xef3f3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xef3f3c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West wing
+Tradtionally the guest bedroom, the west wing is a simply decorated space. The is a great red curtain on the wall you are now facing. To your right is a closet and dressar. They are made of quality oak and seem to impose temselves into the room, as opposed to fitting in with it. The left part of the room contains the guest bed, the bedside table and the reading lamp on top. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x3147c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3147c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xefc1410" />
+    </children>
+  </item>
+  <item nodeId="node-0xefc1410">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xef52110" />
+    </children>
+  </item>
+  <item nodeId="node-0xef52110">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x9285090" />
+    </children>
+  </item>
+  <item nodeId="node-0x9285090">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x9215050" />
+    </children>
+  </item>
+  <item nodeId="node-0x9215050">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x92c6200" />
+    </children>
+  </item>
+  <item nodeId="node-0x92c6200">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x9239c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9239c30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xefacb60" />
+    </children>
+  </item>
+  <item nodeId="node-0xefacb60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Hall
+You can see servents door and Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x924b670" />
+    </children>
+  </item>
+  <item nodeId="node-0x924b670">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening servents door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xef842e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xef842e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West wing
+Tradtionally the guest bedroom, the west wing is a simply decorated space. The is a great red curtain on the wall you are now facing. To your right is a closet and dressar. They are made of quality oak and seem to impose temselves into the room, as opposed to fitting in with it. The left part of the room contains the guest bed, the bedside table and the reading lamp on top. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xefd7130" />
+    </children>
+  </item>
+  <item nodeId="node-0xefd7130">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0xefd36f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xefd36f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="111">YES</temporary>
+    <children>
+      <child nodeId="node-0x928ae70" />
+    </children>
+  </item>
+  <item nodeId="node-0x928ae70">
+    <command xml:space="preserve">go to front porch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="110">YES</temporary>
+  </item>
+  <item nodeId="node-0x99e7740">
+    <command xml:space="preserve">l painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x56e460" />
+    </children>
+  </item>
+  <item nodeId="node-0x56e460">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Grand staircase
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x802c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x802c5e0">
+    <command xml:space="preserve">painting</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x9913f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9913f50">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x99f7ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99f7ea0">
+    <command xml:space="preserve">l painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x990abb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x990abb0">
+    <command xml:space="preserve">get safe</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x9952f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9952f20">
+    <command xml:space="preserve">open painting</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x927c9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x927c9c0">
+    <command xml:space="preserve">x sfe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x9926cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9926cd0">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A heavy safe with a numbered code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x99df7e0">
     <command xml:space="preserve">s</command>
     <played>YES</played>
     <changed>YES</changed>

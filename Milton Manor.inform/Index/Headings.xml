@@ -3,9 +3,9 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6L38</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/ptanton17/Documents/Milton Manor.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>"Milton Manor" by Phillip Tanton</string>
+        <key>Title</key><string>"Milton Manor" by Phillip Tanton "A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house."</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
