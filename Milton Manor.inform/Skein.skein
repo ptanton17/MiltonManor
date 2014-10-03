@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x99df6f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x166028d0" />
+  <activeNode nodeId="node-0x191b7cc0" />
   <item nodeId="node-0x99df6f0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,7 +9,7 @@
 
  Manor
 An Interactive Fiction by Phillip Tanton &quot;A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house.&quot;
-Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Front porch
 A simple porch, with two lamps, a reclining chair and a withered old deck.
@@ -17,9 +17,10 @@ A simple porch, with two lamps, a reclining chair and a withered old deck.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="263">NO</temporary>
+    <temporary score="275">NO</temporary>
     <children>
       <child nodeId="node-0xfe76420" />
+      <child nodeId="node-0x101d2a70" />
       <child nodeId="node-0x99df740" />
       <child nodeId="node-0x9967840" />
       <child nodeId="node-0x80446c0" />
@@ -1921,6 +1922,103 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
+  <item nodeId="node-0x101d2a70">
+    <command xml:space="preserve">x get all</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x11359770" />
+    </children>
+  </item>
+  <item nodeId="node-0x11359770">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">(Code)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x92b42c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x92b42c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+You can see a servants door and Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x191b1560" />
+    </children>
+  </item>
+  <item nodeId="node-0x191b1560">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beggining of this house. There are images of the ancestors of hte current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x1133a1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1133a1d0">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x1133ac70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1133ac70">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A heavy safe with a numbered code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x1133a410" />
+    </children>
+  </item>
+  <item nodeId="node-0x1133a410">
+    <command xml:space="preserve">l painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x191b7cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x191b7cc0">
+    <command xml:space="preserve">get painting</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="274">YES</temporary>
+  </item>
   <item nodeId="node-0xfe76420">
     <command xml:space="preserve">x porch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
@@ -1928,7 +2026,7 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x19285330" />
       <child nodeId="node-0x92e0db0" />
@@ -1941,7 +2039,7 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x1923a4e0" />
     </children>
@@ -1953,7 +2051,7 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x9249300" />
     </children>
@@ -1965,7 +2063,7 @@ It seems to be locked.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x1928a780" />
     </children>
@@ -1979,7 +2077,7 @@ In Deck is Code.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x191b5670" />
     </children>
@@ -1991,7 +2089,7 @@ In Deck is Code.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x16624f40" />
     </children>
@@ -2003,7 +2101,7 @@ In Deck is Code.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x19286920" />
     </children>
@@ -2019,7 +2117,7 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x16604260" />
     </children>
@@ -2031,7 +2129,7 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x19295e00" />
     </children>
@@ -2043,7 +2141,7 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x16610350" />
     </children>
@@ -2055,7 +2153,7 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x16609e50" />
     </children>
@@ -2067,7 +2165,7 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0xef73220" />
     </children>
@@ -2079,16 +2177,66 @@ You can see a servants door, Suit of armor and Scotland Yard here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="267">YES</temporary>
     <children>
       <child nodeId="node-0x166028d0" />
     </children>
   </item>
   <item nodeId="node-0x166028d0">
     <command xml:space="preserve">talk to scotland yard</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="262">YES</temporary>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x16681180" />
+    </children>
+  </item>
+  <item nodeId="node-0x16681180">
+    <command xml:space="preserve">talk to scotland yard</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x1918db80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1918db80">
+    <command xml:space="preserve">ask scotland yard</command>
+    <result xml:space="preserve">What do you want to ask Scotland Yard for?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x19288a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x19288a50">
+    <command xml:space="preserve">victim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="267">YES</temporary>
+    <children>
+      <child nodeId="node-0x101a9490" />
+    </children>
+  </item>
+  <item nodeId="node-0x101a9490">
+    <command xml:space="preserve">ask scotland yard about victim</command>
+    <result xml:space="preserve">We don&apos;t know much. Her name is Jennifer Milton and she was the wife of the late John Milton. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="266">YES</temporary>
   </item>
   <item nodeId="node-0x19285330">
     <command xml:space="preserve">x lamps</command>
