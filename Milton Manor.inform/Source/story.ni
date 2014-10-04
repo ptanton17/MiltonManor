@@ -58,13 +58,11 @@ Body is a thing. Body is in bed. The description of body is "A widowed wife, the
 
 [Grand Staircase items]
 
-painting is a container. The description of painting is "A simple painting of 'Son of Man', obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.".  Painting is in grand staircase.
-Every turn: 
-	if player has painting:
-		show safe
-safe is a container. safe is locked and lockable. the description of safe is "A heavy safe with a numbered code.".  The safe is in painting. The safe is scenery. 
+painting is a container. The description of painting is "A simple painting of 'Son of Man', obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.". Painting is scenery. Painting is in grand staircase. painting is openable and closed.
 
-Necklace is a thing. Necklace is in safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. ".
+safe is a container. safe is locked and lockable. the description of safe is "A heavy safe with a numbered code.".  The safe is in the painting. 
+
+Necklace is a thing. Necklace is in the safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. ".
 [east wing items]
 
 The servants door is a locked door. it is locked and lockable. It is west of the east wing and east of the Main hall.
@@ -83,17 +81,22 @@ A day for spelling.
 
 Scotland Yard is a man. Scotland yard is in 
 main hall. 
+understand "talk to [something]" as talking. Talking is an action applying to one thing.
+Instead of talking something: say "Try asking  about something instead."
 After asking the scotland yard about "phone number": say "Thank you so much, we will look into this right away .... Ok ....  The number is atrributed to two men. Why don't you give us the phone number.". 
-After giving phone number to scotland yard: say "Thank you".
+instead of giving phone number to scotland yard: 
+	say "Thank you"; move phone number to scotland yard.
+	
 After asking the scotland yard about "victim": say "We don't know much. Her name is Jennifer Milton and she was the wife of the late John Milton. ".
+
 After asking the scotland yard about "perpatrator": say "We currently think he was dating Mrs. MIlton at the time.".
 After asking the scotland yard about "Sherlock holmes" : say "He is one hell of a dective. not two pleasent to be around though.".
 After asking the scotland yard about "Code" : say "Mabye it is a code for a lock."
 After asking the scotland yard about "Necklace": say "I will take this and run it for fin gerprints. ... And there is a partial ... There are 3 matches. Why don't you give this to us for safekeeping. ".
-After giving necklace to Scotland yard: say "Thank you for this. We'll keep it safe".
-[Every turn:
-	If 
-]
+instead giving necklace to Scotland yard: say "Thank you for this. We'll keep it safe";  move necklace to scotland yard.
+An every turn rule:
+	if scotland yard has necklace and scotland yard has phone number, end the story finally saying "you have found the culprit. You have done a good job. ".
+
 
 
 
