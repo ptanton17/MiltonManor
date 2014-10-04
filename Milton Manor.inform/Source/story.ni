@@ -1,4 +1,4 @@
-" Manor" by Phillip Tanton [kiang@me.com]
+" Milton Manor" by Phillip Tanton [kiang@me.com]
 "A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house."
 Front porch is a room. "A simple porch, with two lamps, a reclining chair and a withered old deck.".
 West wing is a room. "Tradtionally the guest bedroom, the west wing is a simply decorated space. The is a great red curtain on the wall you are now facing. To your right is a closet and dressar. They are made of quality oak and seem to impose temselves into the room, as opposed to fitting in with it. The left part of the room contains the guest bed, the bedside table and the reading lamp on top. ".
@@ -14,6 +14,7 @@ Main hall is east of west wing.
 Main hall is north of grand staircase.
 Guest room is west of west hall. 
 Master Bedroom is south of Grand staircase.
+
 
 [Front porch items]
 
@@ -31,7 +32,11 @@ Reclining chair is a thing. The description of reclining chair is "A relaxing ch
 Closet is a container. The description of closet is "A large oak closet filled with jackets and sweaters. ". Closet is scenery. Closet is in west wing.
 
 clothes are a kind of thing. Clothes are wearable. people can wear one kind of clothes.
+[clothes]
 
+Magnifying glass is a thing.
+
+Cloak is a clothes. cloak is in front porch.
 Jacket is a clothes."An old stiff jacket. ALthough it doesn't fit you peticurarly well, it is wearable.". Jacket is in closet.
 
 Sweater is a container. Sweater is wearable. "A hoodie that stinks of sweat, there seems to be a paper with a phone number inside.". Sweater is in closet.
@@ -62,7 +67,7 @@ painting is a container. The description of painting is "A simple painting of 'S
 
 safe is a container. safe is locked and lockable. the description of safe is "A heavy safe with a numbered code.".  The safe is in the painting. 
 
-Necklace is a thing. Necklace is in the safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. ".
+Necklace is a thing. Necklace is in the safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. there suit of armor ".
 [east wing items]
 
 The servants door is a locked door. it is locked and lockable. It is west of the east wing and east of the Main hall.
@@ -114,5 +119,4 @@ To say exit list:
 	repeat with way running through directions:
 		let place be the room way from the location;
 		if place is a room, say "[way]".
-
 
