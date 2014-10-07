@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x10ba9e20" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x10cdbfd0" />
+  <activeNode nodeId="node-0x1da952a0" />
   <item nodeId="node-0x10ba9e20">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -17,12 +17,14 @@ A simple porch, with two lamps, a reclining chair and a withered old deck.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="267">NO</temporary>
+    <temporary score="356">NO</temporary>
     <children>
       <child nodeId="node-0x10bae840" />
       <child nodeId="node-0x10bad110" />
       <child nodeId="node-0x10bac930" />
+      <child nodeId="node-0x19e8a950" />
       <child nodeId="node-0x10bac5b0" />
+      <child nodeId="node-0x19ef6ac0" />
       <child nodeId="node-0x10bab660" />
       <child nodeId="node-0x10ba9e90" />
     </children>
@@ -2228,8 +2230,6 @@ You can also see Mirror and statues here.
 West wing
 Tradtionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.
 
-A nicly woven curtain. It looks old and dusty although it seems to have been taken care of and is not much deterioration.
-
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
@@ -2281,6 +2281,114 @@ The main feature in this room is of course the grand staircase. It has carvings 
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="142">YES</temporary>
+  </item>
+  <item nodeId="node-0x19ef6ac0">
+    <command xml:space="preserve">North</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc1b140" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc1b140">
+    <command xml:space="preserve">South</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc89030" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc89030">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+West wing
+Tradtionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x10bf0920" />
+    </children>
+  </item>
+  <item nodeId="node-0x10bf0920">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e6eab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e6eab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0xef10380" />
+    </children>
+  </item>
+  <item nodeId="node-0xef10380">
+    <command xml:space="preserve">unlock</command>
+    <result xml:space="preserve">What do you want to unlock?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0xacb8140" />
+    </children>
+  </item>
+  <item nodeId="node-0xacb8140">
+    <command xml:space="preserve">servant door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="275">YES</temporary>
+    <children>
+      <child nodeId="node-0x10cf2300" />
+    </children>
+  </item>
+  <item nodeId="node-0x10cf2300">
+    <command xml:space="preserve">servant&apos;sdoor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="274">YES</temporary>
   </item>
   <item nodeId="node-0x10bac5b0">
     <command xml:space="preserve">give </command>
@@ -2342,6 +2450,1089 @@ You can&apos;t give Code to yourself.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="385">YES</temporary>
+  </item>
+  <item nodeId="node-0x19e8a950">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc81530" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc81530">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xcccf900" />
+    </children>
+  </item>
+  <item nodeId="node-0xcccf900">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West wing
+Traditionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xcc464d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcc464d0">
+    <command xml:space="preserve">xcurtain</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da562e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da562e0">
+    <command xml:space="preserve">x curtain</command>
+    <result xml:space="preserve">You see nothing special about Red curtain.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c190f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c190f0">
+    <command xml:space="preserve">x closet</command>
+    <result xml:space="preserve">A large oak closet filled with jackets and sweaters. 
+
+In Closet are Jacket and Sweater.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da62590" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da62590">
+    <command xml:space="preserve">x jacket</command>
+    <result xml:space="preserve">You see nothing special about Jacket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da59ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da59ac0">
+    <command xml:space="preserve">x sweater</command>
+    <result xml:space="preserve">In Sweater is Phone number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da38950" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da38950">
+    <command xml:space="preserve">x phone number</command>
+    <result xml:space="preserve"> 44 (302) 866 5738
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d07a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d07a0">
+    <command xml:space="preserve">put on</command>
+    <result xml:space="preserve">What do you want to put on?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xeff2b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xeff2b20">
+    <command xml:space="preserve">put on sweater</command>
+    <result xml:space="preserve">(first taking Sweater)
+You put on Sweater.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c370e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c370e0">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Sweater)
+Try asking  about something instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10bcace0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10bcace0">
+    <command xml:space="preserve">ask sweater</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da53660" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da53660">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c10440" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c10440">
+    <command xml:space="preserve">ask scotland yard</command>
+    <result xml:space="preserve">(for Sweater)
+(Scotland Yard first taking Sweater)
+Scotland Yard has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c859a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c859a0">
+    <command xml:space="preserve">ask scotland yard about phone number</command>
+    <result xml:space="preserve">Thank you so much, we will look into this right away .... Ok ....  The number is atrributed to two men. Why don&apos;t you give us the phone number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da35fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da35fa0">
+    <command xml:space="preserve">give phone number</command>
+    <result xml:space="preserve">(to Scotland Yard)
+(first taking Phone number)
+Thank you
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da5b130" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da5b130">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Front porch
+A simple porch, with two lamps, a reclining chair and a withered old deck.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xccc47d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xccc47d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c08a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c08a20">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da5c840" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da5c840">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e7a840" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e7a840">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da4eb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da4eb80">
+    <command xml:space="preserve">x edges of the wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e8b010" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e8b010">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da730e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da730e0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xccd74a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xccd74a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c0c140" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c0c140">
+    <command xml:space="preserve">x quilts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da3e270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da3e270">
+    <command xml:space="preserve">x rug</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xcce5d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xcce5d30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ee9040" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ee9040">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c14bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c14bb0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da61790" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da61790">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da546d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da546d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da25900" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da25900">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da70df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da70df0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da84af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da84af0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da7df90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da7df90">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10bee180" />
+    </children>
+  </item>
+  <item nodeId="node-0x10bee180">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e80d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e80d30">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the servant&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10b01840" />
+    </children>
+  </item>
+  <item nodeId="node-0x10b01840">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da30620" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da30620">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c09b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c09b30">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+West wing
+Traditionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19eb0a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x19eb0a80">
+    <command xml:space="preserve">x bed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10bf5a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x10bf5a90">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da77300" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da77300">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Front porch
+A simple porch, with two lamps, a reclining chair and a withered old deck.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f009c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f009c0">
+    <command xml:space="preserve">x deck</command>
+    <result xml:space="preserve">A rotton deck, obiously old and ill maintained. There seems to be part of a paper between two planks.
+
+In Deck is Code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da234e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da234e0">
+    <command xml:space="preserve">x code</command>
+    <result xml:space="preserve">1539
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da1e2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da1e2c0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da47990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da47990">
+    <command xml:space="preserve">ask scotland yard</command>
+    <result xml:space="preserve">(for Sweater)
+(Scotland Yard first taking Sweater)
+Scotland Yard has better things to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ee14f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ee14f0">
+    <command xml:space="preserve">ask scotland yard about code</command>
+    <result xml:space="preserve">Mabye it is a code for a lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da1e470" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da1e470">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x34a2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x34a2a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10ce08e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10ce08e0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c0f010" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c0f010">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da82650" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da82650">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da97bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da97bb0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0xefcf270" />
+    </children>
+  </item>
+  <item nodeId="node-0xefcf270">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ea00a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ea00a0">
+    <command xml:space="preserve">code 1539</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1daba450" />
+    </children>
+  </item>
+  <item nodeId="node-0x1daba450">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ee4c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ee4c00">
+    <command xml:space="preserve">x painting</command>
+    <result xml:space="preserve">A simple painting of &quot;Son of Man&quot;, obviolsy a replica but interesting all the same. The edges of the wall seem to be worn. perhaps it is moved around quite often.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e8f380" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e8f380">
+    <command xml:space="preserve">x edge of wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1daa1760" />
+    </children>
+  </item>
+  <item nodeId="node-0x1daa1760">
+    <command xml:space="preserve">open wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da9e280" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da9e280">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">(Sweater)
+It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da9b9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da9b9d0">
+    <command xml:space="preserve">open painting</command>
+    <result xml:space="preserve">You open painting, revealing safe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1daafe30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1daafe30">
+    <command xml:space="preserve">type code</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e10f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e10f40">
+    <command xml:space="preserve">i </command>
+    <result xml:space="preserve">You are carrying:
+  Sweater (being worn)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e90af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e90af0">
+    <command xml:space="preserve">dial </command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19e883f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19e883f0">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A heavy safe in the wall with a numbered code. You have to SPIN the dial to one number to open it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ef7640" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ef7640">
+    <command xml:space="preserve">spin dial</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da94070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da94070">
+    <command xml:space="preserve">spin dial to 1</command>
+    <result xml:space="preserve">You hear a gentle click but when you go to open the safe is does not open. Try again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da8f6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da8f6b0">
+    <command xml:space="preserve">spin dial to 1539</command>
+    <result xml:space="preserve">finally the handle opens and you have uncovered the necklace that was inside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da9c320" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da9c320">
+    <command xml:space="preserve">x necklace</command>
+    <result xml:space="preserve">A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. there suit of armor 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1daa5c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1daa5c70">
+    <command xml:space="preserve">take necklace</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dab5270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dab5270">
+    <command xml:space="preserve">x suit of armor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dab8b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dab8b00">
+    <command xml:space="preserve">x armor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da543f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da543f0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Master Bedroom
+The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dabec30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dabec30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Grand staircase
+The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dab4e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dab4e40">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive cealing and large woven rugs on a tiled floor. It is here that a representitive of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dab4e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dab4e90">
+    <command xml:space="preserve">ask scotland yard about necklace</command>
+    <result xml:space="preserve">I will take this and run it for fin gerprints. ... And there is a partial ... There are 3 matches. Why don&apos;t you give this to us for safekeeping. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x19ea5730" />
+    </children>
+  </item>
+  <item nodeId="node-0x19ea5730">
+    <command xml:space="preserve">give</command>
+    <result xml:space="preserve">What do you want to give Scotland Yard?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="356">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da952a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da952a0">
+    <command xml:space="preserve">give necklace</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="355">YES</temporary>
   </item>
   <item nodeId="node-0x10bac930">
     <command xml:space="preserve">wear claok</command>

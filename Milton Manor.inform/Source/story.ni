@@ -1,7 +1,7 @@
 " Milton Manor" by Phillip Tanton [kiang@me.com]
 "A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find somthing of interest don't forget to mention it to the representative from scotland yard."
 Front porch is a room. "A simple porch, with two lamps, a reclining chair and a withered old deck.".
-West wing is a room. "Tradtionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.".
+West wing is a room. "Traditionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.".
 Master Bedroom is a room. "The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. ".
 Grand staircase is a room. "The main feature in this room is of course the grand staircase. It has carvings showing the story of the milton family and the beginning of this house. There are images of the ancestors of the current Milton Family. neat rows of Fuedal lords and Renasiance magistrates. They all have the same stern narrow jawbone. There is also a painting in the corner of the room. It seems a bit our of the way.".
 
@@ -99,7 +99,7 @@ Spinning it to is an action applying to one thing and one number. Check spinning
 Understand "spin [something] to [a number]" as spinning it to.
 After spinning closed safe to 1539: now the safe is open; say "finally the handle opens and you have uncovered the necklace that was inside.".
 
-Necklace is a thing. Necklace is in the safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints. there suit of armor ".
+Necklace is a thing. Necklace is in the safe. The description of necklace is "A pretty pearl necklace. It is endowned with green gems. Mabye the perpatrater touched it and left some fingerprints.".
 [east wing items]
 
 The servant's door is a locked door. "The servants door is a plain wooden door, nothing special.". it is locked and lockable. It is west of the east wing and east of the Main hall. The servents door is scenery.
