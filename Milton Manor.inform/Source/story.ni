@@ -1,5 +1,8 @@
 " Milton Manor" by Phillip Tanton [kiang@me.com]
 "A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find somthing of interest don't forget to mention it to the representative from scotland yard."
+[from cole]
+Release along with cover art ("cover")
+
 Front porch is a room. "A simple porch, with two lamps, a reclining chair and a withered old deck.".
 West wing is a room. "Traditionally the guest bedroom, the west wing is a simply decorated space. There is a great red curtain on the wall you are now facing. To your right is a closet and dresser. They are made of quality oak and seem to impose themselves into the room, as opposed to fitting in with it. The parts of the room to your left contain the guest bed, the bedside table and the reading lamp on top. There is also a bedroom mirror on the door.".
 Master Bedroom is a room. "The keep of this castle. It a heavily furnished room, one large rug on the bottom and two quilts hanging. Both contain war scenes. One is about a man holding off the enemy at a bridge, while his comrades escape and destroy the bridge behind him. ".
@@ -15,7 +18,7 @@ Main hall is north of grand staircase.
 Guest room is west of west hall. 
 Master Bedroom is south of Grand staircase.
 
-
+The description of player is "You are the renowned Sherlock Holmes. You are lightly covered but it getting a bit chilly. you should solve the mystery quickly.".
 [Front porch items]
 understand "paper" as the code.
 Deck is a container. Deck is in front porch. The deck is undescribed. The description of deck is "A rotton deck, obiously old and ill maintained. There seems to be part of a paper between two planks.". The deck is scenery.
@@ -34,7 +37,7 @@ Instead of entering chair:
 [west wing items]
 Red curtain is a thing. "A nicly woven curtain. It looks old and dusty although it seems to have been taken care of and is not much deterioration." Red curtain is in west wing. Red curtain is fixed in place.
 Curtain is undescribed.
-Closet is a container. The description of closet is "A large oak closet filled with jackets and sweaters. ". Closet is scenery. Closet is in west wing.
+Closet is a container. The description of closet is "A large oak closet filled with jackets and sweaters. ". Closet is scenery. Closet is in west wing. Closet is closed. Closet is openable.
 
 clothes are a kind of thing. Clothes are wearable. people can wear one kind of clothes.
 
