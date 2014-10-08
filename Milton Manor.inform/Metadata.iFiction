@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F22BE097-CE52-4F57-96AC-66425E650003</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Milton Manor</title>
+            <author>Phillip Tanton 'A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpetrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find something of interest don't forget to mention it to the representative from Scotland yard.'</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2014</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>1000</height>
+            <width>1000</width>
+            <description>cover</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2014-10-07</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L38</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L38</generatorversion>
+            <originated>2014-10-07</originated>
+        </colophon>
+        <glulx>
+            <serial>141007</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L38</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>

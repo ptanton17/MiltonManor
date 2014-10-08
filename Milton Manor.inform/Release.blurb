@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6L38
+
+status "/Users/ptanton17/Desktop/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.inform"
+release to "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname " Milton Manor.gblorb"
+storyfile "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.inform/Build/output.ulx" include
+ifiction "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.inform/Metadata.iFiction" include
+cover "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.materials/Cover.jpg"
+picture 1 "/Users/ptanton17/Documents/Milton Manor.materials/Release/MiltonManor/Milton Manor.materials/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F22BE097-CE52-4F57-96AC-66425E650003"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2014"
+placeholder [TITLE] = "Milton Manor"
+placeholder [AUTHOR] = "Phillip Tanton 'A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpetrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find something of interest don't forget to mention it to the representative from Scotland yard.'"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc400.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||

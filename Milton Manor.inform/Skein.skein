@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x71646b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x71646b0" />
+  <activeNode nodeId="node-0x7127630" />
   <item nodeId="node-0x71646b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
  Milton Manor
-An Interactive Fiction by Phillip Tanton &quot;A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpatrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find somthing of interest don&apos;t forget to mention it to the representative from scotland yard.&quot;
+An Interactive Fiction by Phillip Tanton &quot;A woman has been killed at her house, Milton Manor, in the countryside of Cornwall. The local police chief and Scotland yard have had little luck finding the perpetrator. It is your job as the renowned Sherlock Holmes to discover the clues hidden inside the house. If you find something of interest don&apos;t forget to mention it to the representative from Scotland yard.&quot;
 Release 1 / Serial number 141007 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Front porch
@@ -16,10 +16,11 @@ A simple porch, with two lamps, a reclining chair and a withered old deck.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="420">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="21">NO</temporary>
     <children>
       <child nodeId="node-0x716dfb0" />
+      <child nodeId="node-0x24f9b0" />
       <child nodeId="node-0x716d4c0" />
       <child nodeId="node-0x716dca0" />
       <child nodeId="node-0x7169e10" />
@@ -4621,6 +4622,259 @@ It seems to be locked.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="410">YES</temporary>
+  </item>
+  <item nodeId="node-0x24f9b0">
+    <command xml:space="preserve">x lamps</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71d9fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71d9fb0">
+    <command xml:space="preserve">x lamp</command>
+    <result xml:space="preserve">Two antique lamps that glow dimly and flicker with a ambient light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x234a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x234a90">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x259e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x259e60">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">A relaxing chair. It&apos;s a dull yellow and looks very comfortable.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x26c760" />
+    </children>
+  </item>
+  <item nodeId="node-0x26c760">
+    <command xml:space="preserve">sit in chair</command>
+    <result xml:space="preserve">Although it is comfortable to sit here awhile, perhaps you should solve the mystery.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71849a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71849a0">
+    <command xml:space="preserve">x deck</command>
+    <result xml:space="preserve">A rotten deck, obviously old and ill maintained. There seems to be part of a paper between two planks.
+
+In Deck is Code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x237360" />
+    </children>
+  </item>
+  <item nodeId="node-0x237360">
+    <command xml:space="preserve">x code</command>
+    <result xml:space="preserve">1539
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71925e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71925e0">
+    <command xml:space="preserve">take paper</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x233ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x233ab0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Code
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71bc040" />
+    </children>
+  </item>
+  <item nodeId="node-0x71bc040">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive ceiling and large woven rugs on a tiled floor. It is here that a representative of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x718f9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x718f9b0">
+    <command xml:space="preserve">x yard</command>
+    <result xml:space="preserve">You see nothing special about Scotland Yard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x709bb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x709bb20">
+    <command xml:space="preserve">x representative</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x705f290" />
+    </children>
+  </item>
+  <item nodeId="node-0x705f290">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about the servant&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71e44a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71e44a0">
+    <command xml:space="preserve">walk throug door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71d6ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71d6ac0">
+    <command xml:space="preserve">wal through door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x703bee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x703bee0">
+    <command xml:space="preserve">walk through door</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x705e6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x705e6b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Front porch
+A simple porch, with two lamps, a reclining chair and a withered old deck.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x71265f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x71265f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Main Hall
+The entrance where visitors are brought. It has an expansive ceiling and large woven rugs on a tiled floor. It is here that a representative of Scotland yard has taken up office. 
+
+The servants door is a plain wooden door, nothing special.
+
+You can also see Scotland Yard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x236720" />
+    </children>
+  </item>
+  <item nodeId="node-0x236720">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the servant&apos;s door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x7127630" />
+    </children>
+  </item>
+  <item nodeId="node-0x7127630">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
   </item>
   <item nodeId="node-0x716dfb0">
     <command xml:space="preserve">x get all</command>
